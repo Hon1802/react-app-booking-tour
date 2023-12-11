@@ -6,10 +6,9 @@ module.exports = override(
  
   addWebpackPlugin(new CompressionPlugin()),
   (config) => {
-    config.devServer = {
-      ...config.devServer,
-      disableHostCheck: true,
-    };
+    if (config.devServer) {
+      config.devServer.allowedHosts = ['https://web-service-booking-tour.onrender.com'];
+    }
     return config;
   }
 );
