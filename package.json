@@ -42,6 +42,7 @@
     "moment": "^2.29.4",
     "mui-tel-input": "^4.0.1",
     "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
     "react-bootstrap": "^2.9.1",
     "react-datepicker": "^4.24.0",
     "react-dom": "^18.2.0",
@@ -65,14 +66,14 @@
     "sass": "^1.57.1",
     "slick-carousel": "^1.8.1",
     "stream": "^0.0.2",
+    "stream-browserify": "^3.0.0",
     "styled-components": "^6.1.0",
     "typed.js": "^2.0.12",
     "web-vitals": "^2.1.4",
-    "yup": "^1.2.0",
-    "stream-browserify": "^3.0.0"
+    "yup": "^1.2.0"
   },
   "scripts": {
-    "start": "react-scripts start  --host 0.0.0.0 --disableHostCheck=true",
+    "start": "react-scripts start  --host 0.0.0.0 --disableHostCheck=true ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
