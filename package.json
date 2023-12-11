@@ -2,7 +2,6 @@
   "name": "tour-ecommerce",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "proxy": "https://web-service-booking-tour.onrender.com",
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -72,7 +71,7 @@
     "yup": "^1.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --disableHostCheck=true",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
