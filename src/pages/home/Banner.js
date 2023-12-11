@@ -5,7 +5,7 @@ import { img1 } from "../../assets/home";
 import { useInView } from "react-intersection-observer";
 import clsx from "clsx";
 import React from "react";
-import Typed from "typed";
+import Typed from "typed.js";
 import { Input } from 'reactstrap';
 const slogans = [
     "Know",
