@@ -1,5 +1,5 @@
-const { override, addWebpackPlugin } = require('customize-cra');
-const CompressionPlugin = require('compression-webpack-plugin');
+import{ override, addWebpackPlugin } from 'customize-cra';
+import CompressionPlugin from 'compression-webpack-plugin';
 
 module.exports = override(
   // Thêm plugin nén vào config của webpack
