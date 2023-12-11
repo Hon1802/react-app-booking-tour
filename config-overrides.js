@@ -4,7 +4,7 @@ const CompressionPlugin = require('compression-webpack-plugin');
 module.exports = override(
     (config) => {
         if (config.devServer) {
-          config.devServer.allowedHosts = ['web-service-booking-tour.onrender.com'];
+          config.devServer.allowedHosts = ['https://web-service-booking-tour.onrender.com'];
         }
         return config;
       }
